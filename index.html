@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FORMS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function onSubmit() {
+            alert("Form is submitted");
+        }
+    </script>
+</head>
+<body><center>
+    <form onSubmit="onSubmit()">
+        <H1>REGISTRAION FORM</H1>
+        <label for="fname">First Name: </label>
+            <input placeholder="Enter FirstName" type="text" name="fname" id="fname"><br><br>
+            <label for="lname">Last Name: </label>
+            <input placeholder="Enter LastNames" type="text" name="lname" id="lname"><br><br>
+            <label for="password">password: </label>
+            <input placeholder="Enter Password" type="password" name="Password" id="password"><br><br>
+            <label for="confirmpass">Confirm Password: </label>
+            <input placeholder="Re-Enter Password" type="password" name="confirmpass" id="confirmpass"><br><br>
+            <label for="Gender">Gender: </label>
+            <input type="radio"id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label><br><br>
+            <label for="Agree">I Agree: </label>
+            <input type="checkbox" name="Conditions">
+            <label for="Conditions"> Terms and condition</label><br><br>
+            <button type="submit" value="submit" >Register</button>
+        </center>
+         </form>
+
+    
+</body>
+</html>
