@@ -1,14 +1,32 @@
 body{
-    background-color:aqua;
-
+    background-color: azure;
+    background-image:linear-gradient(pink,yellow,green,blue,red);
+    height:600px;
+    width:auto;
 }
 
 label :focus {
-    border: none;
+ border: none;
   border-bottom: 0px solid darkcyan;
 }
 
-{button :hover
+button :hover{
 color:black;
+
+  }
+  table {
+    border="2px"
+    border-color: dark black;
+  }
+
+  th, td {
+    padding: 7px;
 }
-  
+
+tr:nth-Child(even){
+    background-color: pink;
+    }
+    tr:nth-child(odd){
+        background-color: skyblue;
+    }
+    
